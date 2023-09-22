@@ -56,6 +56,7 @@ C:\Users\sunny\source\repos\Console Application vs Windows Application\Console A
                1 File(s)            233 bytes
                5 Dir(s)  490,449,309,696 bytes free
 
+-------------------------CONSOLE APP: Created---------------------------------------
 C:\Users\sunny\source\repos\Console Application vs Windows Application\Console Application vs Windows Application>csc /t:exe /out:MeConsole.exe Program.cs
 Microsoft (R) Visual C# Compiler version 4.7.0-3.23416.8 (43b0b05c)
 Copyright (C) Microsoft Corporation. All rights reserved.
@@ -77,6 +78,39 @@ C:\Users\sunny\source\repos\Console Application vs Windows Application\Console A
                2 File(s)          7,011 bytes
                5 Dir(s)  490,446,663,680 bytes free
 
+C:\Users\sunny\source\repos\Console Application vs Windows Application\Console Application vs Windows Application>MeConsole.exe
+Hellow World
+-------------------------CONSOLE APP------------------------------------END
+-------------------------WINDOWS APP: Created----------------------------
+
+C:\Users\sunny\source\repos\Console Application vs Windows Application\Console Application vs Windows Application>csc /t:winexe /out:MeWindows.exe Program.cs
+Microsoft (R) Visual C# Compiler version 4.7.0-3.23416.8 (43b0b05c)
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+C:\Users\sunny\source\repos\Console Application vs Windows Application\Console Application vs Windows Application>dir
+ Volume in drive C has no label.
+ Volume Serial Number is DAE4-938D
+
+ Directory of C:\Users\sunny\source\repos\Console Application vs Windows Application\Console Application vs Windows Application
+
+23/09/2023  02:28 am    <DIR>          .
+23/09/2023  02:28 am    <DIR>          ..
+22/09/2023  10:53 pm    <DIR>          bin
+23/09/2023  02:23 am             4,096 MeConsole.exe
+23/09/2023  02:28 am             4,096 MeWindows.exe
+22/09/2023  10:53 pm    <DIR>          obj
+23/09/2023  02:27 am             4,264 Program.cs
+22/09/2023  10:53 pm    <DIR>          Properties
+               3 File(s)         12,456 bytes
+               5 Dir(s)  490,445,430,784 bytes free
+
+-------------------------WINDOWS APP------------------------------------END
+
+C:\Users\sunny\source\repos\Console Application vs Windows Application\Console Application vs Windows Application>MeWindows.exe
+
+C:\Users\sunny\source\repos\Console Application vs Windows Application\Console Application vs Windows Application>MeConsole.exe
+Hellow World
 
 
  * 
